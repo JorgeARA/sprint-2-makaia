@@ -1,0 +1,108 @@
+{
+    "vuelos":[
+        {
+            "id":1,
+            "code": "AV16544",
+            "dateVuelo": "15/10/2022",
+            "timeVuelo": "10:00 am",
+            "itinerario":{
+                "origen": "Cartagena",
+                "destino": "Medellín",
+                "scales": false,
+                "duracion": "1h 30min",
+                "precio": "100.000 COP"
+            },
+            "asientos":[
+                {
+                    "id": 1,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }
+            ]
+        },
+        {
+            "id":2,
+            "code": "AV16545",
+            "dateVuelo": "16/10/2022",
+            "timeVuelo": "9:00 am",
+            "itinerario":{
+                "origen": "Medellín",
+                "destino": "Cartagena",
+                "scales": false,
+                "duracion": "1h 30min",
+                "precio": "100.000 COP"
+            },
+            "asientos":[
+                {
+                    "id": 1,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }
+            ]
+        }
+
+    ],
+    "pasajeros":[
+        {
+            "id": 1,
+            "information":{
+                "name": "Ricardo",
+                "lastName": "Camacho",
+                "age": "19",
+                "tipoId": "C.C",
+                "noId": "16556",
+                "address":{
+                    "city": "Cartagena",
+                    "country": "Colombia",
+                    "barrio": "Los Ejecutivos"
+                }
+            },
+            "vueloId": 1,
+            "asiento": "A05"            
+        },
+        {
+            "id": 2,
+            "information":{
+                "name": "Armando",
+                "lastName": "Camacho",
+                "age": "50",
+                "tipoId": "C.C",
+                "noId": "1655156466",
+                "address":{
+                    "city": "Cartagena",
+                    "country": "Colombia",
+                    "barrio": "Los Ejecutivos"
+                }
+            },
+            "vueloId": 1,
+            "asiento": "B05"            
+        }
+    ]
+
+}
