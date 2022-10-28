@@ -1,0 +1,35 @@
+.services{
+    display: flex;
+    width: 93%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.cardServ{
+    display: flex;
+    width: 93%;
+    height: 300px;
+    padding: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+    width: 18%;
+    height: 300px;
+    box-shadow: -6px 10px 10px 3px rgba(189,185,189,1);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+.imgServ{
+    width: 70px;
+    height: 70px;
+}
+
